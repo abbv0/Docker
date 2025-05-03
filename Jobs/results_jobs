@@ -1,0 +1,6 @@
+docker build -t test:pandas . 
+    [+] Building 1.3s (9/9) FINISHED   
+
+docker run -it test:pandas 2025-01-01
+    ['pipeline_jobs.py', '2025-01-01']
+    job finished successfuly for days = 2025-01-01
